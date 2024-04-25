@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DevFolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body class="bg-light "data-bs-spy="scroll" data-bs-target="#navbar-example">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark pb-0 " id="navbar-example">
+        <div class="container">
+            <a class="navbar-brand fs-3 " href="#">DevFolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
+                <ul class="navbar-nav  ">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#HOME">HOME </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ABOUT">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#SERVICES">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#WORK">WORK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#BLOG">BLOG</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            DROPDOWN
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">DROP DOWN 1</a>
+                            <a class="dropdown-item" href="#">DROP DOWN 2</a>
+                            <a class=" dropdown dropdown-item" href="#">
+                                <a class=" text-decoration-none  dropdown-toggle" href="#"
+                                    id="navbarDeepDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    DEEP DROP DOWN
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDeepDropdown">
+                                    <a class="dropdown-item" href="#"> DEEP DROP DOWN 1</a>
+                                    <a class="dropdown-item" href="#"> DEEP DROP DOWN 2</a>
+                                    <a class="dropdown-item" href="#"> DEEP DROP DOWN 3</a>
+                                    <a class="dropdown-item" href="#"> DEEP DROP DOWN 4</a>
+                                    <a class="dropdown-item" href="#"> DEEP DROP DOWN 5</a>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="#">DROP DOWN 3</a>
+                            <a class="dropdown-item" href="#">DROP DOWN 4</a>
+                        </div>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#CONTACT">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <i></i>
+    </nav>
+    <!-- H O M E -->
+    <header id="HOME">
+        <div class=" text-white  layer d-flex flex-column  align-items-center justify-content-center ">
+            <h1 class="display-1 ">I am Morgan Freeman</h1>
+            <h2 id="keyframe" class=" h1"><samp class="opacity-0">.</samp>
+            </h2>
+        </div>
+    </header>
+    <!-- A B O U T -->
+    <section id="ABOUT">
+        <div class="container shadow bg-white p-5 ">
+            <div class="row align-items-center text-muted">
+                <div class="col-lg-6">
+                    <div class="row align-items-center ">
+                        <div class="col-sm-5 ">
+                            <figure><img class="rounded-3" src="./photos/testimonial-2.jpg" alt=""></figure>
+                        </div>
+                        <div class="col-sm-7">
+                            <ul id="aboutlist" class="list-unstyled ">
+                                <li><span>Name: </span> Morgan Freeman</li>
+                                <li><span>Profile: </span> full stack developer</li>
+                                <li><span>Email: </span> contact@example.com</li>
+                                <li><span>Phone: </span> (617) 557-0089</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p id="abouttitle">Skill</p>
+                    <div id="aboutprog">
+                        <p>HTML 85%</p>
+                        <div class="progress rounded-0  ">
+                            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <p>CSS3 75%</p>
+                        <div class="progress rounded-0">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <p>PHP 50%</p>
+                        <div class="progress rounded-0">
+                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <p>JAVASCRIPT 90%</p>
+                        <div class="progress rounded-0">
+                            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="mb-5 ">About me</h2>
+                    <div id="aboutp">
+                        <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat,
+                            accumsan
+                            id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec,
+                            egestas
+                            non nisi. Nulla porttitor accumsan tincidunt.</p>
+                        <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget
+                            felis
+                            porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+                            porttitor at sem.</p>
+                        <p>Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id
+                            enim.
+                            Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh
+                            pulvinar a.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- S E R V I C E S -->
+    <section id="SERVICES" class="text-center">
+        <div class="container">
+            <div class="aftertitle">
+                <h2>SERVICES</h2>
+                <p class="position-relative text-muted mb-5  ">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <div id="sarflex" class="row pt-5  ">
+                <div class="col-lg-4 col-md-6 p-3 ">
+                    <div class="shadow  bg-white p-3">
+                        <div class="iconaia"> <i class="fa-solid fa-briefcase fa-2xl">
+                            </i> </div>
+                        <h3>WEB DESIGN</h3>
+                        <p class="text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci
+                            eaque autem fugiat!
+                            Quia,
+                            provident vitae! Magni tempora perferendis eum non provident.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-3">
+                    <div class="shadow bg-white p-3">
+                        <div class="iconaia"> <i class="fa-solid fa-list-check fa-2xl"></i>
+                        </div>
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p class="text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci
+                            eaque autem fugiat!
+                            Quia,
+                            provident vitae! Magni tempora perferendis eum non provident.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-3">
+                    <div class="shadow bg-white p-3">
+                        <div class="iconaia"> <i class="fa-solid fa-chart-simple fa-2xl"></i>
+                        </div>
+                        <h3>PHOTOGRAPHY</h3>
+                        <p class="text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci
+                            eaque autem fugiat!
+                            Quia,
+                            provident vitae! Magni tempora perferendis eum non provident.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-3">
+                    <div class="shadow  bg-white p-3">
+                        <div class="iconaia"> <i class="fa-solid fa-binoculars fa-2xl"></i></div>
+                        <h3>RESPONSIVE DESIGN</h3>
+                        <p class="text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci
+                            eaque autem fugiat!
+                            Quia,
+                            provident vitae! Magni tempora perferendis eum non provident.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-3">
+                    <div class="shadow  bg-white p-3">
+                        <div class="iconaia"> <i class="fa-solid fa-sun fa-2xl"></i>
+                        </div>
+                        <h3>GRAPHIC DESIGN</h3>
+                        <p class="text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci
+                            eaque autem fugiat!
+                            Quia,
+                            provident vitae! Magni tempora perferendis eum non provident.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-3">
+                    <div class="shadow bg-white p-3">
+                        <div class="iconaia"> <i class="fa-solid fa-calendar-days fa-2xl"></i>
+                        </div>
+                        <h3>MARKETING SERVICES</h3>
+                        <p class="text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci
+                            eaque autem fugiat!
+                            Quia,
+                            provident vitae! Magni tempora perferendis eum non provident.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- s e r v i c e s  c a l c u l a t i o n -->
+    <section id="servcalc" class="p-0 ">
+        <div class="layer p-5 ">
+            <div class="container m-5 ">
+                <div class="row text-white border-white text-center ">
+                    <div class="col-lg-3 col-md-6  ">
+                        <div class="iconaia"><i class="fa-solid fa-check fa-2xl"></i></div><h3  id="team-members">450</h3>
+                        <p>WORKS COMPLETED</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 ">
+                        <div class="iconaia"><i class="fa-solid fa-book-journal-whills fa-2xl"></i></div><h3 id="complete-projects">25</h3>
+                        <p>YEARS OF EXPERIENCE</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 ">
+                        <div class="iconaia"><i class="fa-solid fa-user-group fa-2xl"></i></div><h3 id="files-downloaded">550</h3>
+                        <p>TOTAL CLIENTS</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 ">
+                        <div class="iconaia"><i class="fa-solid fa-award fa-2xl"></i></div><h3 id="lines-of-code">48</h3>
+                        <p>AWARD WON</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- W O R K -->
+    <section id="WORK" class="text-center">
+        <div class="aftertitle">
+            <h2>PORTFOLIO</h2>
+            <div class="position-relative text-muted mb-5 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </div>
+        </div>
+        <div class="container ">
+            <div class="row mb-5 ">
+                <div class="col-lg-4 col-md-6 p-3 ">
+                    <div class=" imghover card w-100 border-0 shadow-sm ">
+                        <img src="./photos/work-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body ms-0 me-0 ">
+                            <div class=" d-flex justify-content-between align-items-center ">
+                                <div>
+                                    <h5>Lorem impsum dolor</h5>
+                                    <p class="mb-0 text-muted "><span class="text-info ">Web Design</span> / 18 Sep.
+                                        2018</p>
+                                </div>
+                                <div class="iconaia"><i class="fa-solid fa-plus fa-xl"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-3 ">
+                    <div class="card w-100 border-0 shadow-sm " style="width: 18rem;">
+                        <img src="./photos/work-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body ms-0 me-0 ">
+                            <div class=" d-flex justify-content-between align-items-center ">
+                                <div>
+                                    <h5>Loreda Cuno Nere
+                                    </h5>
+                                    <p class="mb-0 text-muted "><span class="text-info ">Web Design</span> / 18 Sep.
+                                        2018</p>
+                                </div>
+                                <div class="iconaia"><i class="fa-solid fa-plus fa-xl"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-3 ">
+                    <div class="card w-100 border-0 shadow-sm " style="width: 18rem;">
+                        <img src="./photos/work-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body ms-0 me-0 ">
+                            <div class=" d-flex justify-content-between align-items-center ">
+                                <div>
+                                    <h5>Mavrito Lana Dere</h5>
+                                    <p class="mb-0 text-muted "><span class="text-info ">Web Design</span> / 18 Sep.
+                                        2018</p>
+                                </div>
+                                <div class="iconaia"><i class="fa-solid fa-plus fa-xl"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-3 ">
+                    <div class="card w-100 border-0 shadow-sm " style="width: 18rem;">
+                        <img src="./photos/work-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body ms-0 me-0 ">
+                            <div class=" d-flex justify-content-between align-items-center ">
+                                <div>
+                                    <h5>Bindo Laro Cado</h5>
+                                    <p class="mb-0 text-muted "><span class="text-info ">Web Design</span> / 18 Sep.
+                                        2018</p>
+                                </div>
+                                <div class="iconaia"><i class="fa-solid fa-plus fa-xl"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-3 ">
+                    <div class="card w-100 border-0 shadow-sm " style="width: 18rem;">
+                        <img src="./photos/work-5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body ms-0 me-0 ">
+                            <div class=" d-flex justify-content-between align-items-center ">
+                                <div>
+                                    <h5>Studio Lena Mado</h5>
+                                    <p class="mb-0 text-muted "><span class="text-info ">Web Design</span> / 18 Sep.
+                                        2018</p>
+                                </div>
+                                <div class="iconaia"><i class="fa-solid fa-plus fa-xl"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-3 ">
+                    <div class="card w-100 border-0 shadow-sm " style="width: 18rem;">
+                        <img src="./photos/work-6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body ms-0 me-0 ">
+                            <div class=" d-flex justify-content-between align-items-center ">
+                                <div>
+                                    <h5>Studio Big Bang</h5>
+                                    <p class="mb-0 text-muted "><span class="text-info ">Web Design</span> / 18 Sep.
+                                        2018</p>
+                                </div>
+                                <div class="iconaia"><i class="fa-solid fa-plus fa-xl"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- f e e d  b a c k -->
+    <section id="feedback" class="p-0 ">
+        <div class="layer p-5 ">
+            <div class="container p-5 ">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item text-center text-white  active">
+                            <img src="./photos/testimonial-2.jpg" class="d-block iconaia border-0  " alt="...">
+                            <!-- <div class="carousel-caption d-none d-md-block mt-5 "> -->
+                            <h5 class="mb-3 "> XAVI ALONSO</h5>
+                            <p class="mb-3 w-50 m-auto ">
+                                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit
+                                amet,
+                                consectetur adipiscing elit.</p>
+                            <!-- </div> -->
+                        </div>
+                        <div class="carousel-item text-center text-white  ">
+                            <img src="./photos/testimonial-4.jpg" class="d-block iconaia border-0 " alt="...">
+                            <!-- <div class="carousel-caption d-none d-md-block mt-5"> -->
+                            <h5 class="mb-3 ">MARTA SOCRATE</h5>
+                            <p class="mb-3 w-50 m-auto ">
+                                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit
+                                amet,
+                                consectetur adipiscing elit.</p>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-indicators position-static ">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                        class="active rounded-circle" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        class="rounded-circle " aria-label="Slide 2"></button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- B L O G -->
+    <section id="BLOG" class="text-center">
+        <div class="container ">
+            <div class="aftertitle">
+                <h2>BLOG</h2>
+                <p class="position-relative text-muted mb-5  ">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <div class="row gx-4 text-start">
+                <div class="col-lg-4 col-md-6 mb-md-5 ">
+                    <div class="card shadow-sm ">
+                        <img class="card-img-top" src="./photos/post-1.jpg" alt="post-1">
+                        <div class="card-body position-relative ">
+
+                            <span class="badge position-absolute ">WEB DESIGN</span>
+                            <a class="card-title  fs-4 mb-3 ">See more ideas about Travel</a>
+                            <p class="card-text mb-3 ">Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                                dapibus.
+                                Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between ">
+                            <div>
+                                <img src="./photos/testimonial-2.jpg" alt="" class=" rounded-circle ">
+                                <a href="#" class="text-reset text-decoration-none ">Morgan Freeman</a>
+                            </div>
+                            <div class="text-muted">
+                                <i class="fa-regular fa-clock"></i>
+                                <small> 10 min</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6  ">
+                    <div class="card shadow-sm ">
+                        <img class="card-img-top" src="./photos/post-2.jpg" alt="post-2">
+                        <div class="card-body position-relative ">
+
+                            <span class="badge position-absolute ">WEB DESIGN</span>
+                            <a class="card-title  fs-4 mb-3 ">See more ideas about Travel</a>
+                            <p class="card-text mb-3 ">Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                                dapibus.
+                                Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between ">
+                            <div>
+                                <img src="./photos/testimonial-2.jpg" alt="" class=" rounded-circle ">
+                                <a href="#" class="text-reset text-decoration-none ">Morgan Freeman</a>
+                            </div>
+                            <div class="text-muted">
+                                <i class="fa-regular fa-clock"></i>
+                                <small> 10 min</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6  ">
+                    <div class="card shadow-sm ">
+                        <img class="card-img-top" src="./photos/post-3.jpg" alt="post-3">
+                        <div class="card-body position-relative ">
+
+                            <span class="badge position-absolute ">WEB DESIGN</span>
+                            <a class="card-title  fs-4 mb-3 ">See more ideas about Travel</a>
+                            <p class="card-text mb-3">Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                                dapibus.
+                                Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between ">
+                            <div>
+                                <img src="./photos/testimonial-2.jpg" alt="" class=" rounded-circle ">
+                                <a href="#" class="text-reset text-decoration-none ">Morgan Freeman</a>
+                            </div>
+                            <div class="text-muted">
+                                <i class="fa-regular fa-clock"></i>
+                                <small> 10 min</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- C O N T A C T -->
+    <section id="CONTACT" class="p-0 ">
+        <div class="layer p-5 ">
+            <div class="container bg-white m-5 p-5  ">
+                <div class="row">
+                    <div class="col-lg-6  ">
+                        <h2 class="mb-5 ">Send Message Us</h2>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+
+                        <button class="btn btn-primary" type="submit">Send Message</button>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <h2 class="mb-5 ">Get in Touch</h2>
+                        <p class="text-muted pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                            dolorum
+                            dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem
+                            nemo esse laboriosam ratione nobis mollitia inventore?</p>
+                        <ul class="list-unstyled ">
+                            <li><i class="fa-solid fa-location-dot me-3 text-primary ">
+
+                                </i><Samp class="text-muted">329 WASHINGTON ST BOSTON, MA 02108</Samp>
+
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile me-3 text-primary "></i><span class="text-muted ">(617)
+                                    557-0089</span>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-envelope me-3 text-primary "></i><span class="text-muted ">
+                                    contact@example.com
+                                </span>
+                            </li>
+                        </ul>
+                        <div class="d-flex justify-content-between w-50 ">
+                           <a href="" class="text-reset text-decoration-none "> <div class="iconaia border-2  facebook"><i class="fa-brands fa-facebook "></i></div>
+                       </a>  <a href=""  class="text-reset text-decoration-none ">  <div class="iconaia border-2  instgram"><i class="fa-brands fa-instagram"></i></div>
+                            </a>  <a href=""  class="text-reset text-decoration-none "><div class="iconaia border-2 linkedin"><i class="fa-brands fa-linkedin"></i></div>
+                      </a>     <a href=""  class="text-reset text-decoration-none "><div class="iconaia border-2 twitter"><i class="fa-brands fa-twitter"></i></div>
+                       </a>  </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+    <footer class=" p-5 text-center text-white  ">
+        <p>© Copyright DevFolio. All Rights Reserved
+        </p>
+        
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</body>
+
+</html>
